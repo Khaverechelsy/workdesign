@@ -1,0 +1,61 @@
+nav {
+    justify-content: right;
+    display: flex;
+    color:#FFFFFF;
+}
+    nav div{
+        justify-content: left;
+        padding:20px 5px;
+        font-size: 15px
+    }
+
+    nav ul{
+        display:flex;
+        list-style-type: none;
+    }
+    nav ul li{
+        margin:0 20px;
+        color:white;
+        position:relative;
+    }
+    nav ul li a{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 15px;
+        padding:10px 15px;
+        transition: all 0.3s ease-in-out;
+    }
+    nav ul li a:hover{
+        text-decoration: underline;
+    }
+.hero-content{
+    font-size: 40px;
+    position:relative;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight:bold;
+    text-decoration: none;
+
+}
+ .hero{
+     background-image:url("https://media.istockphoto.com/id/2074939734/photo/the-black-and-silver-are-light-gray-with-white-the-gradient-is-the-surface-with-templates.jpg?s=612x612&w=0&k=20&c=vDylfjeky86CHadwenyhYZlLGlWkwcHiU977IsaJgSY=");
+     background-size:cover;
+     background-position: center;
+     height: 700px;
+     border-radius: 0;
+     margin:0;
+ }
+ h1{
+     text-align: center;
+     font-weight: bold;
+
+ }
+ p{
+     text-align: center;
+     color: #FFFFFF;
+ }
+ section{
+     text-align: center;
+     color:#328ba8
+ }
